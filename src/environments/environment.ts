@@ -5,8 +5,8 @@
 
 export const environment = {
     production: false,
-    apiUrl: 'tc-rest:9090',
-    apiUrlAuth: 'tc-as:9998',
-    apiUrlRest: 'tc-rest:9090'
+    apiUrl: 'https://tec-control.herokuapp.com',
+    apiUrlAuth: 'http://localhost:9998',
+    apiUrlRest: 'http://localhost:9090'
     
 };
