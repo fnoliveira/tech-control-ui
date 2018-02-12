@@ -1,6 +1,6 @@
 export const environment = {
     production: true,
-    apiUrl: 'tc-rest:9090',
-    apiUrlAuth: 'tc-as:9998',
-    apiUrlRest: 'tc-rest:9090'
+    apiUrl: 'http://localhost:9090',
+    apiUrlAuth: 'http://localhost:9998',
+    apiUrlRest: 'http://localhost:9090'
 };
