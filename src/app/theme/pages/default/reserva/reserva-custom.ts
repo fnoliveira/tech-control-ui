@@ -1,5 +1,5 @@
-import 'fullCalendar';
 import * as $ from 'jquery';
+import 'fullcalendar';
 export class ReservaCustom {
     
     static initReservaFullCalendar(id:string, dataJson: any) {
