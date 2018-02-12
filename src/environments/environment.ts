@@ -5,7 +5,8 @@
 
 export const environment = {
     production: false,
-    apiUrl: 'tc-rest:9090',
-    apiUrlAuth: 'tc-as:9998',
-    apiUrlRest: 'tc-rest:9090'
+    apiUrl: 'http://0.0.0.0:9090',
+    apiUrlAuth: 'http://0.0.0.0:9998',
+    apiUrlRest: 'http://0.0.0.0:9090'
+    
 };
