@@ -5,8 +5,8 @@
 
 export const environment = {
     production: false,
-    apiUrl: 'http://0.0.0.0:9090',
-    apiUrlAuth: 'http://0.0.0.0:9998',
-    apiUrlRest: 'http://0.0.0.0:9090'
+    apiUrl: 'http://172.18.0.4:9090',
+    apiUrlAuth: 'http://172.18.0.3:9998',
+    apiUrlRest: 'http://172.18.0.4:9090'
     
 };
