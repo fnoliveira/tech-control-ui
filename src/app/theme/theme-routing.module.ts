@@ -19,6 +19,11 @@ const routes: Routes = [
             },
 
             {
+                'path': 'reserva',
+                'loadChildren': '.\/pages\/default\/reserva\/reserva.module#ReservaModule',
+            },
+
+            {
                 "path": "header\/profile",
                 "loadChildren": ".\/pages\/default\/header\/header-profile\/header-profile.module#HeaderProfileModule"
             },
