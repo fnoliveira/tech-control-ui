@@ -16,7 +16,7 @@ app.use(function (req, res, next) {
 app.use(express.static(__dirname + '/dist'));
 // Start the app by listening on the default
 // Heroku port
-app.listen(process.env.PORT || 8080)
+app.listen(process.env.PORT || 80)
 
 // For all GET requests, send back index.html
 // so that PathLocationStrategy can be used
